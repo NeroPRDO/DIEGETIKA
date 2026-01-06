@@ -4,6 +4,8 @@
 
 ## Visão geral
 
+Ignore a desorganização do repo, é para funcionar no github Pages... Valew
+
 O site do **Grupo Diegétika** apresenta a trajetória, as produções e as pessoas do coletivo, com uma navegação simples, animações suaves e layout responsivo.  
 **Lema:** _“Arte como investigação, corpo como linguagem, cena como reflexão.”_
 
