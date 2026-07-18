@@ -1,0 +1,15 @@
+{
+  "name": "Diegétika",
+  "short_name": "Diegétika",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d0910",
+  "theme_color": "#0d0910",
+  "icons": [
+    {
+      "src": "assets/images/brand/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

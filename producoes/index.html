@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Produções e atividades — Diegétika</title>
+    <meta name="description" content="Conheça as produções cênicas, obras audiovisuais, mostras, leituras, estudos, aulas e oficinas do Grupo Diegétika.">
+    <meta name="theme-color" content="#0d0910">
+    <link rel="canonical" href="https://neroprdo.github.io/DIEGETIKA/producoes/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Diegétika">
+    <meta property="og:title" content="Produções e atividades — Diegétika">
+    <meta property="og:description" content="Conheça as produções cênicas, obras audiovisuais, mostras, leituras, estudos, aulas e oficinas do Grupo Diegétika.">
+    <meta property="og:url" content="https://neroprdo.github.io/DIEGETIKA/producoes/">
+    <meta property="og:image" content="https://neroprdo.github.io/DIEGETIKA/assets/images/banners/producoes.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../assets/images/brand/favicon.png">
+    <link rel="manifest" href="../manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/site.css">
+  </head>
+  <body data-root="../" data-page="producoes" data-content-key="producoes">
+    <div data-include="partials/header.html"></div>
+
+    <main id="conteudo">
+      <section class="page-hero has-image">
+        <img
+          class="page-hero-image"
+          data-content-media="pages.producoes.hero.imagemId"
+        alt=""
+        >
+        <div class="page-hero-overlay"></div>
+        <div class="container page-hero-content">
+          <p class="eyebrow" data-content="pages.producoes.hero.eyebrow"></p>
+          <h1 data-content="pages.producoes.hero.titulo"></h1>
+          <p data-content="pages.producoes.hero.texto"></p>
+        </div>
+      </section>
+      <section class="productions">
+        <div class="container">
+          <p class="eyebrow text-center" data-content="pages.producoes.secoes.atuaisEyebrow"></p>
+          <h2 class="section-title" data-content="pages.producoes.secoes.atuaisTitulo"></h2>
+          <article class="featured-production fade-in" data-render="producao-destaque"></article>
+        </div>
+      </section>
+      <section class="archive-productions" id="catalogo">
+        <div class="container">
+          <p class="eyebrow text-center" data-content="pages.producoes.secoes.catalogoEyebrow"></p>
+          <h2 class="section-title" data-content="pages.producoes.secoes.catalogoTitulo"></h2>
+        </div>
+        <div data-render="categorias-producoes"></div>
+      </section>
+      <section class="content-section">
+        <div class="container text-center content-copy">
+          <p class="eyebrow" data-content="pages.producoes.processo.eyebrow"></p>
+          <h2 class="section-title" data-content="pages.producoes.processo.titulo"></h2>
+          <div data-render="paragrafos" data-source="pages.producoes.processo.paragrafos"></div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include="partials/footer.html"></div>
+    <button class="mode-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">
+      <i class="fa-solid fa-sun" aria-hidden="true"></i>
+    </button>
+    <script defer src="../content/site.js"></script>
+    <script defer src="../content/data/midias.js"></script>
+    <script defer src="../content/data/redes.js"></script>
+    <script defer src="../content/data/parceiros.js"></script>
+    <script defer src="../content/data/atividades.js"></script>
+    <script defer src="../content/producoes/o-cubo-de-erika.js"></script>
+    <script defer src="../content/producoes/mostra-de-cenas-curtas.js"></script>
+    <script defer src="../content/producoes/solos.js"></script>
+    <script defer src="../content/producoes/sobre-viver.js"></script>
+    <script defer src="../content/producoes/olho-dagua.js"></script>
+    <script defer src="../content/producoes/do-choro-ao-riso.js"></script>
+    <script defer src="../content/pages/producoes.js"></script>
+    <script defer src="../assets/js/components.js"></script>
+    <script defer src="../assets/js/content.js"></script>
+    <script defer src="../assets/js/site.js"></script>
+  </body>
+</html>

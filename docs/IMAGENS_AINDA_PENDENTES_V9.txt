@@ -1,0 +1,15 @@
+IMAGENS AINDA PENDENTES — V9
+================================
+
+As imagens principais solicitadas nesta etapa já foram substituídas.
+
+Ainda permanecem como material temporário ou de baixa resolução:
+
+1. assets/images/noticias/mostra-de-cenas-curtas-2025.webp
+   - Capa da notícia da Mostra de Cenas Curtas de 2025.
+
+2. assets/images/producoes/mostra-de-cenas-curtas/02.webp
+   - Segunda fotografia da página da Mostra de Cenas Curtas.
+
+Quando houver arquivos melhores, basta substituir mantendo exatamente
+os mesmos nomes e caminhos.

@@ -1,337 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diegétika — Grupo de Estudos de Artes e Filosofias</title>
+    <meta name="description" content="Arte como investigação, corpo como linguagem, cena como reflexão. Conheça o Grupo Diegétika, suas produções, pesquisas e integrantes.">
+    <meta name="theme-color" content="#0d0910">
+    <link rel="canonical" href="https://neroprdo.github.io/DIEGETIKA/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Diegétika">
+    <meta property="og:title" content="Diegétika — Grupo de Estudos de Artes e Filosofias">
+    <meta property="og:description" content="Arte como investigação, corpo como linguagem, cena como reflexão. Conheça o Grupo Diegétika, suas produções, pesquisas e integrantes.">
+    <meta property="og:url" content="https://neroprdo.github.io/DIEGETIKA/index.html">
+    <meta property="og:image" content="https://neroprdo.github.io/DIEGETIKA/assets/images/banners/inicio-01.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/images/brand/favicon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
+  <body data-root="" data-page="inicio" data-content-key="inicio">
+    <div data-include="partials/header.html"></div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diegétika - Grupo de Teatro</title>
-    <link rel="stylesheet" href="Styles/styles.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;500;600;700&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <meta name="google-site-verification" content="HQuwSSdE788UoBGhsI3w5nhou9X8qN-eBn_GScP5zJg" />
-</head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B66P78Z651"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-B66P78Z651');
-</script>
-
-
-<body>
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo">Diegétika</a>
-            <button class="nav-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="active">Início</a></li>
-                    <li><a href="historia.html">História</a></li>
-                    <li><a href="pecas.html">Peças</a></li>
-                    <li><a href="integrantes.html">Integrantes</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="noticias.html">Notícias</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="hero">
-        <div class="carousel">
-            <div class="carousel-container">
-                <button class="prev" id="prev">&#10094;</button>
-                <div class="carousel-slide">
-                    <img src="images/historia0.jpg" alt="bowl">
-                    <img src="images/historia1.jpg" alt="be">
-                    <img src="images/integrante0.jpg" alt="group_nice">
-
-                    <img src="images/imagem3.jpg" alt="me">
-                    <img src="images/imagem6.jpg" alt="isa">
-                    <img src="images/news0.jpg" alt="group_hand">
-                </div>
-                <button class="next" id="next">&#10095;</button>
-            </div>
-            <div class="carousel-overlay"></div>
+    <main id="conteudo">
+      <section class="hero" aria-label="Apresentação do grupo">
+        <div class="carousel hero-carousel" data-autoplay="true">
+          <div class="carousel-container">
+            <button class="prev" type="button" aria-label="Imagem anterior">❮</button>
+            <div class="carousel-slide" data-render="carrossel-inicio"></div>
+            <button class="next" type="button" aria-label="Próxima imagem">❯</button>
+          </div>
+          <div class="carousel-overlay"></div>
         </div>
         <div class="hero-content">
-            <img src="images/logo_index.jpg" alt="Logo Diegétika" class="hero-logo">
-            <h1 class="fade-in">Diegétika</h1>
-            <p class="fade-in">Arte como investigação, corpo como linguagem, cena como reflexão.</p>
-            <div class="hero-buttons">
-                <a href="pecas.html" class="btn fade-in">Nossas Produções</a>
-                <a href="contato.html" class="btn btn-outline fade-in">Entre em Contato</a>
-            </div>
+          <img class="hero-logo" data-content-media="pages.inicio.hero.simboloId" alt="Símbolo do Grupo Diegétika">
+          <p class="eyebrow" data-content="pages.inicio.hero.eyebrow"></p>
+          <h1 data-content="pages.inicio.hero.titulo"></h1>
+          <p class="hero-quote" data-content="pages.inicio.hero.frase"></p>
+          <p class="hero-lead" data-content="pages.inicio.hero.texto"></p>
+          <div class="hero-buttons">
+            <a class="btn" href="producoes/" data-content="pages.inicio.acoes.producoes"></a>
+            <a class="btn btn-outline" href="contato.html" data-content="pages.inicio.acoes.contato"></a>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="about-section">
+      <section class="about-section">
+        <div class="container about-content">
+          <img class="about-image fade-in" data-content-media="pages.inicio.sobre.imagemId" alt="" loading="lazy" decoding="async">
+          <div class="about-text">
+            <p class="eyebrow" data-content="pages.inicio.sobre.eyebrow"></p>
+            <h2 class="fade-in" data-content="pages.inicio.sobre.titulo"></h2>
+            <div data-render="paragrafos" data-source="pages.inicio.sobre.paragrafos"></div>
+            <a class="btn btn-purple fade-in" href="historia.html" data-content="pages.inicio.acoes.historia"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="productions">
         <div class="container">
-            <div class="about-content">
-                <img src="images/imagem10.jpg" alt="Sobre_Diegetika" class="about-image fade-in">
-                <div class="about-text">
-                    <h2 class="fade-in">Sobre o grupo Diegétika</h2>
-                    <p class="fade-in">O Grupo de Estudos de Artes e Filosofias Diegétika nasceu em 2021, em meio à
-                        atmosfera peculiar de recolhimento e
-                        reinvenção imposta pela pandemia de Covid-19. Idealizado e conduzido pelo professor Felipe
-                        Quadra, o grupo partiu de uma
-                        trajetória já existente na criação teatral para expandir-se em novas direções, impulsionado pelo
-                        desejo de manter viva a
-                        investigação artística mesmo à distância.</p>
-
-                    <p class="fade-in">Nossa abordagem combina o estudo de técnicas teatrais, o estudo das mesmas junto
-                        do estudo e análise filosófica, integrando os dois tanto no estudo e na prática.</p>
-                    <a href="historia.html" class="btn btn-purple fade-in">Conheça Nossa História</a>
-                </div>
-            </div>
+          <p class="eyebrow text-center" data-content="pages.inicio.secoes.producaoEyebrow"></p>
+          <h2 class="section-title fade-in" data-content="pages.inicio.secoes.producaoTitulo"></h2>
+          <article class="featured-production fade-in" data-render="producao-destaque"></article>
         </div>
-    </section>
+      </section>
 
-    <section class="productions">
+      <section class="team">
         <div class="container">
-            <h2 class="section-title fade-in">Nossas Produções</h2>
-            <div class="production-grid">
-                <div class="production-card fade-in">
-                    <img src="images/peca5_img1.jpg" alt="Cubo_de_ek" class="production-image">
-                    <div class="production-content">
-                        <h3>O Cubo de Erika: metáforas de uma mente só (2025)</h3>
-                        <p>Criada a partir dos monólogos e pesquisas de filosofia, psicologia e simbolismo, o drama dá
-                            voz aos nossos conflitos
-                            internos. A Saudade, o Instinto, a Ausência, a Guerra, a Memória e a Narrativa, são peças de
-                            um jogo rumo ao silêncio e
-                            à descoberta de que a verdade mais profunda habita o vazio que resta quando todas as vozes
-                            se calam.</p>
-                        <a href="peca1.html" class="btn">Saiba Mais</a>
-                    </div>
-                </div>
-                <div class="production-card fade-in">
-                    <img src="images/news1_4.jpg" alt="Solos" class="production-image">
-                    <div class="production-content">
-                        <h3>Solos (2025)</h3>
-                        <p>O trabalho reúne as experimentações cênicas dos integrantes do projeto Diegétika, que
-                            investiga a filosofia, a
-                            simbologia e a psicologia como suporte para a criação artística. Neste trabalho, quatro
-                            breves monólogos trazem a
-                            reflexão sobre a fluidez e a brevidade da existência perante as águas da vida, da morte e os
-                            desafios que surgem entre
-                            esse espaço.</p>
-                        <a href="peca3.html" class="btn">Saiba Mais</a>
-                    </div>
-                </div>
-                <div class="production-card fade-in">
-                    <img src="images/news3.jpg" alt="Sobre_Viver" class="production-image">
-                    <div class="production-content">
-                        <h3>Sobre Viver (2023)</h3>
-                        <p>Sobre viver, é uma peça que entrelaça mitos, poesia e conto, ressignificando os símbolos da
-                            trindade feminina, como as
-                            fiadeiras do Destino, a deusa Tríplice, e as Górgonas. Uma peça sobre o teatro, sobre Amor,
-                            sobre a resiliência, a perda
-                            e a esperança.</p>
-                        <a href="peca4.html" class="btn">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-3">
-                <a href="pecas.html" class="btn btn-outline">Ver Todas as Produções</a>
-            </div>
+          <p class="eyebrow text-center" data-content="pages.inicio.secoes.integrantesEyebrow"></p>
+          <h2 class="section-title fade-in" data-content="pages.inicio.secoes.integrantesTitulo"></h2>
+          <div class="team-grid home-team-grid" data-render="integrantes" data-limit="4"></div>
+          <div class="text-center mt-3">
+            <a class="btn btn-outline" href="integrantes.html" data-content="pages.inicio.acoes.integrantes"></a>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="team">
+      <section class="gallery">
         <div class="container">
-            <h2 class="section-title fade-in">Nossos Integrantes</h2>
-            <div class="team-grid">
-                <div class="team-member fade-in">
-                    <img src="images/integra/23.png" alt="Felipe Quadra" class="team-image">
-                    <h3>Felipe Quadra</h3>
-                    <p>Ator/Diretor</p>
-                    <p class="member-bio"></p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/felipequadra_artes?igsh=MTdobnV6d3JnZjIzZQ=="
-                            class="social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="team-member fade-in">
-                    <img src="images/integra/21.png" alt="Brendha Manaszczuk" class="team-image">
-                    <h3>Brendha Manaszczuk</h3>
-                    <p>Atriz</p>
-                    <p class="member-bio"></p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/brendha.mnzk?igsh=MWMwdjBucmgzb202
-                " class="social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="team-member fade-in">
-                    <img src="images/integra/18.png" alt="Pedro Crispim" class="team-image">
-                    <h3>Pedro Crispim</h3>
-                    <p>Ator</p>
-                    <p class="member-bio"></p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/dropshenrique?igsh=d245amkxOGR3NnNn" class="social-link"><i
-                                class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="team-member fade-in">
-                    <img src="images/integra/20.png" alt="Amanda Timotio" class="team-image">
-                    <h3>Amanda Timotio</h3>
-                    <p>Atriz</p>
-                    <p class="member-bio"></p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/timotio_amanda?igsh=ZTk3aDk4amg4eDB5
-                " class="social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-3">
-                <a href="integrantes.html" class="btn btn-outline">Conhecer Todo o Elenco</a>
-            </div>
+          <p class="eyebrow text-center" data-content="pages.inicio.secoes.galeriaEyebrow"></p>
+          <h2 class="section-title fade-in" data-content="pages.inicio.secoes.galeriaTitulo"></h2>
+          <div class="gallery-grid home-gallery" data-render="galeria-destaque" data-limit="6"></div>
+          <div class="text-center mt-3">
+            <a class="btn btn-outline" href="galeria.html" data-content="pages.inicio.acoes.galeria"></a>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="gallery">
+      <section class="news">
         <div class="container">
-            <h2 class="section-title fade-in">Galeria de Imagens</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item fade-in">
-                    <img src="images/imagem1.jpg" alt="Título201" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="gallery-item fade-in">
-                    <img src="images/imagem7.jpg" alt="Título07" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="gallery-item fade-in">
-                    <img src="images/imagem3.jpg" alt="Título 03" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="gallery-item fade-in">
-                    <img src="images/imagem4.jpg" alt="Título 04" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="gallery-item fade-in">
-                    <img src="images/imagem5.jpg" alt="Título 05" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="gallery-item fade-in">
-                    <img src="images/imagem6.jpg" alt="Título 06" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-3">
-                <a href="galeria.html" class="btn btn-outline">Ver Galeria Completa</a>
-            </div>
+          <p class="eyebrow text-center" data-content="pages.inicio.secoes.noticiasEyebrow"></p>
+          <h2 class="section-title fade-in" data-content="pages.inicio.secoes.noticiasTitulo"></h2>
+          <div class="news-grid" data-render="noticias" data-limit="3" data-compact="true"></div>
+          <div class="text-center mt-3">
+            <a class="btn btn-outline" href="noticias.html" data-content="pages.inicio.acoes.noticias"></a>
+          </div>
         </div>
-    </section>
+      </section>
+    </main>
 
-    <section class="news">
-        <div class="container">
-            <h2 class="section-title fade-in">Últimas Notícias</h2>
-            <div class="news-grid">
-                <div class="news-card fade-in">
-                    <img src="images/news1_7.jpg" alt="O_Cubo" class="news-image" />
-                    <div class="news-content">
-                        <div class="news-date">16 de novembro de 2025</div>
-                        <h3>“O Cubo de Erika: Metáforas de uma Mente Só”</h3>
-                        <p>
-                            O Grupo Diegétika com sua nova formação, orgulhosamente apresenta a estreia de sua nova peça
-                            “O Cubo de Erika: Metáforas
-                            de uma Mente Só”.
-                            Criada a partir dos monólogos e pesquisas de filosofia, psicologia e simbolismo, o drama dá
-                            voz aos nossos conflitos
-                            internos. A Saudade, o Instinto, a Ausência, a Guerra, a Memória e a Narrativa, são peças de
-                            um jogo rumo ao silêncio e
-                            à descoberta de que a verdade mais profunda habita o vazio que resta quando todas as vozes
-                            se calam.
-
-                        </p>
-                        <a href="https://www.instagram.com/reel/DRIhkPWjptC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-                            class="btn">Ler Mais</a>
-                    </div>
-                </div>
-
-                <div class="news-card fade-in">
-                    <img src="images/news1_6.jpg" alt="CENAS" class="news-image" />
-                    <div class="news-content">
-                        <div class="news-date">23 de setembro de 2025</div>
-                        <h3>Mostra de Cenas Curtas</h3>
-                        <p>
-                            A Mostra de Cenas Curtas apresenta o resultado de um ciclo de estudos do Grupo Diegétika, no
-                            qual cada participante
-                            desenvolveu um monólogo inspirado por investigações em Simbologia, Filosofia e Mitologia. O
-                            processo incluiu não apenas
-                            aulas teóricas, mas também práticas voltadas ao corpo, à presença cênica, à improvisação, à
-                            anatomia e à dramaturgia.
-
-                        </p>
-                        <a href="https://www.instagram.com/p/DO9dHtcjsji/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-                            class="btn">Ler Mais</a>
-                    </div>
-                </div>
-
-                <div class="news-card fade-in">
-                    <img src="images/news1_5.jpg" alt="Solos" class="news-image" />
-                    <div class="news-content">
-                        <div class="news-date">14 de maio de 2025</div>
-                        <h3>A Tempestade </h3>
-                        <p>
-                            Grupo Diegétika tem a alegria de convidá-los a embarcar conosco novamente no mundo de
-                            Willian Shakespeare, dessa vez com
-                            a obra A TEMPESTADE. Teremos uma breve aula aberta ministrada pelo prof. Felipe, seguido de
-                            leitura completa coletiva da
-                            peça.
-
-                            O objetivo é unir artistas, atrizes, atores, contadores de histórias e demais pessoas
-                            interessadas em teatro, literatura
-                            e filosofia, para refletir sobre a obra clássica e sua importância.
-                        </p>
-                        <a href="https://www.instagram.com/p/DJpHm_mOA1P/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-                            class="btn">Ler Mais</a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="text-center mt-3">
-                <a href="noticias.html" class="btn btn-outline">Ver Todas as Notícias</a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="site-footer" data-include="footer"></footer>
-
-
-    <a href="https://wa.me/5500000000000" class="whatsapp-btn" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <div class="mode-toggle">
-        <i class="fas fa-moon"></i>
-    </div>
-    <script src="Script/script.js"></script>
-    <script src="Script/components.js" defer></script>
-</body>
-
+    <div data-include="partials/footer.html"></div>
+    <button class="mode-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">
+      <i class="fa-solid fa-sun" aria-hidden="true"></i>
+    </button>
+    <script defer src="content/site.js"></script>
+    <script defer src="content/data/midias.js"></script>
+    <script defer src="content/data/redes.js"></script>
+    <script defer src="content/data/parceiros.js"></script>
+    <script defer src="content/data/integrantes.js"></script>
+    <script defer src="content/data/noticias.js"></script>
+    <script defer src="content/data/galeria.js"></script>
+    <script defer src="content/data/atividades.js"></script>
+    <script defer src="content/producoes/o-cubo-de-erika.js"></script>
+    <script defer src="content/producoes/mostra-de-cenas-curtas.js"></script>
+    <script defer src="content/producoes/solos.js"></script>
+    <script defer src="content/producoes/sobre-viver.js"></script>
+    <script defer src="content/producoes/olho-dagua.js"></script>
+    <script defer src="content/producoes/do-choro-ao-riso.js"></script>
+    <script defer src="content/pages/inicio.js"></script>
+    <script defer src="assets/js/components.js"></script>
+    <script defer src="assets/js/content.js"></script>
+    <script defer src="assets/js/site.js"></script>
+  </body>
 </html>

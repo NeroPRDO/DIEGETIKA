@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/</loc></url>
-
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/index.html</loc></url>
   <url><loc>https://neroprdo.github.io/DIEGETIKA/historia.html</loc></url>
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/pecas.html</loc></url>
   <url><loc>https://neroprdo.github.io/DIEGETIKA/integrantes.html</loc></url>
   <url><loc>https://neroprdo.github.io/DIEGETIKA/galeria.html</loc></url>
   <url><loc>https://neroprdo.github.io/DIEGETIKA/noticias.html</loc></url>
   <url><loc>https://neroprdo.github.io/DIEGETIKA/contato.html</loc></url>
-
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/peca1.html</loc></url>
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/peca2.html</loc></url>
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/peca3.html</loc></url>
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/peca4.html</loc></url>
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/peca5.html</loc></url>
-  <url><loc>https://neroprdo.github.io/DIEGETIKA/peca6.html</loc></url>
-
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/producoes/</loc></url>
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/producoes/o-cubo-de-erika.html</loc></url>
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/producoes/mostra-de-cenas-curtas.html</loc></url>
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/producoes/solos.html</loc></url>
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/producoes/sobre-viver.html</loc></url>
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/producoes/olho-dagua.html</loc></url>
+  <url><loc>https://neroprdo.github.io/DIEGETIKA/producoes/do-choro-ao-riso.html</loc></url>
 </urlset>
